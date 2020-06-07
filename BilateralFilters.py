@@ -1,7 +1,7 @@
 import cv2
 import numpy as numpy, math
 
-def joinBilateral():
+def jointBilateral():
     noFlash = cv2.imread('test3a.jpg');
     flash = cv2.imread('test3b.jpg');
     nFChannels = cv2.split(noFlash);
